@@ -1,0 +1,76 @@
+.box_wraper1{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 30%; 
+    background: rgb(254,218,117);
+    background: linear-gradient(250deg, rgba(254,218,117,1) 3%, rgba(250,126,30,1) 28%, rgba(214,41,118,1) 50%, rgba(150,47,191,1) 70%, rgba(79,91,213,1) 100%);
+    position: relative;
+    border-radius: 30%;
+    transition: all 2s;
+    transition: ease-out;
+}
+.box_wraper1:hover {
+    transform: scale(0.3) translate(100%, 100%);
+    transition: 2.3s;
+}
+.box_wraper2:hover {
+    transform: scale(0.7) translate(100%, 100%);
+    transition: 2.3s;
+}
+.box_wraper2{
+    width: 760px;
+    height: 760px;
+    background: rgb(255, 255, 255);
+    border-radius: 30%; 
+    margin-top: center;
+    margin-left: center;
+    position: absolute;               
+    top: 50%;                        
+    transform: translate(120px, -375px)
+}
+.box_wraper3{
+    width: 630px;
+    height: 630px;
+    background: rgb(254,218,117);
+    background: linear-gradient(250deg, rgba(254,218,117,1) 3%, rgba(250,126,30,1) 28%, rgba(214,41,118,1) 50%, rgba(150,47,191,1) 70%, rgba(79,91,213,1) 100%);
+    margin-top: center;
+    margin-left: center;
+    position: absolute;  
+    border-radius: 30%;             
+    top: 50%;                        
+    transform: translate(65px, -310px)  
+}
+.box_wraper4{
+    width: 360px;
+    height: 360px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%; 
+    margin-top: center;
+    margin-left: center;
+    position: absolute;               
+    top: 50%;                        
+    transform: translate(120px, -190px)
+}
+.box_wraper5{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    background: rgb(254,218,117);
+    background: linear-gradient(250deg, rgba(254,218,117,1) 3%, rgba(250,126,30,1) 28%, rgba(214,41,118,1) 50%, rgba(150,47,191,1) 70%, rgba(79,91,213,1) 100%);
+    margin-top: center;
+    margin-left: center;
+    position: absolute;               
+    top: 50%;                        
+    transform: translate(70px, -110px)
+}
+.box_wraper6{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%; 
+    margin-top: center;
+    margin-left: center;
+    position: absolute;               
+    top: 50%;                        
+    transform: translate(420px, -250px)
+}
